@@ -1,6 +1,10 @@
-// Import stylesheets
-import './style.css';
 
-// Write Javascript code!
-const appDiv = document.getElementById('app');
-appDiv.innerHTML = `<h1>JS Starter</h1>`;
+// Array methods 
+
+
+//Concat two arrays
+let hege = ["Cecilie", "Lone"];
+let stale = ["Emil", "Tobias", "Linus"];
+console.log(hege.concat(stale)); //Output : ["Cecilie", "Lone", "Emil", "Tobias", "Linus"]
+
+// List all array items, with keys and values:
