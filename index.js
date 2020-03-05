@@ -55,13 +55,17 @@ let numbers = [175, 50, 25];
 console.log(numbers.reduce(myFunc));
 
 function myFunc(total, num) {
-  return total - num;
-  
+  console.log( total - num);
+
 }
 
+//Select elements from an array
+let fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+console.log(fruits.slice(1, 4)); // ["Orange", "Lemon", "Apple"]
 
-reduce
-slice
+
+
+
 splice
 sort
 reverse
