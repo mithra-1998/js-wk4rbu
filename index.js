@@ -65,8 +65,16 @@ console.log(fruits.slice(1, 4)); // ["Orange", "Lemon", "Apple"]
 
 
 //Add items to the array -> splice
+let fruits = ["Banana", "Orange", "Apple", "Mango"]
+console.log(fruits.splice(2, 4, "Lemon", "Kiwi"))
+
 let fruits = ["Banana", "Orange", "Apple", "Mango"];
-console.log(fruits.splice(2, 0, "Lemon", "Kiwi"))
+console.log(fruits.splice(2, 1, "Lemon", "Kiwi"));
+
+//Sort an array ->  Sort
+let fruits = ["Banana", "Orange", "Apple", "Mango"];
+console.log(fruits.sort()); //
+
 
 
 
@@ -89,3 +97,13 @@ console.log(fruits.splice(2, 0, "Lemon", "Kiwi"))
 //   console.log(a)
 // }
 
+
+
+const array = [1,2,3,4,5]
+const test = array.map((num,index,array) => {
+  return num*2;
+});
+console.log(test)
+
+const filter = array.filter((num,i) => num>1)
+console.log(filter);
