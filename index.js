@@ -61,30 +61,36 @@ function myFunc(total, num) {
 
 //Select elements from an array->slice
 let fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
-console.log(fruits.slice(1, 4)); // ["Orange", "Lemon", "Apple"]
+console.log(fruits.slice(1, 4)); //Output :  ["Orange", "Lemon", "Apple"]
 
 
 //Add items to the array -> splice
 let fruits = ["Banana", "Orange", "Apple", "Mango"]
-console.log(fruits.splice(2, 4, "Lemon", "Kiwi"))
+console.log(fruits.splice(2, 4, "Lemon", "Kiwi")) // Output : ["Apple", "Mango"]
 
 let fruits = ["Banana", "Orange", "Apple", "Mango"];
-console.log(fruits.splice(2, 1, "Lemon", "Kiwi"));
+console.log(fruits.splice(2, 1, "Lemon", "Kiwi"));//Output : ["Apple"]
 
 //Sort an array ->  Sort
 let fruits = ["Banana", "Orange", "Apple", "Mango"];
-console.log(fruits.sort()); //
+console.log(fruits.sort()); //Output : ["Apple", "Banana", "Mango", "Orange"]
+
+//Reverse the order of the elements in an array
+let fruits = ["Banana", "Orange", "Apple", "Mango"];
+console.log(fruits.reverse()); //Output : ["Mango", "Apple", "Orange", "Banana"]
+
+
+//Remove the last element of an array
+let fruits = ["Banana", "Orange", "Apple", "Mango"];
+console.log(fruits.pop()); //output : Mango
+
+//Add a new item to an array
+let fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.push("Kiwi");
+console.log(fruits); // output : ["Banana", "Orange", "Apple", "Mango", "Kiwi"]
 
 
 
-
-
-// splice
-// sort
-// reverse
-// concat
-// pop
-// push
 // shift
 // unhift
 
@@ -99,11 +105,11 @@ console.log(fruits.sort()); //
 
 
 
-const array = [1,2,3,4,5]
-const test = array.map((num,index,array) => {
-  return num*2;
-});
-console.log(test)
+// const array = [1,2,3,4,5]
+// const test = array.map((num,index,array) => {
+//   return num*2;
+// });
+// console.log(test)
 
-const filter = array.filter((num,i) => num>1)
-console.log(filter);
+// const filter = array.filter((num,i) => num>1)
+// console.log(filter);
