@@ -99,3 +99,25 @@ fruits.unshift("Lemon","Pineapple");
 console.log(fruits)//Output : ["Lemon", "Pineapple", "Banana", "Orange", "Apple", "Mango"]
 
 //==================================================================
+
+
+
+//========================================================================================
+
+
+// const array = [1,2,3,4,5];
+// const obj = [{name:'1'}, {name:'2'}, {name:'3'}, {name:'4'}, {name: '5'}]
+// for(let a of obj) {
+//   console.log(a)
+// }
+
+
+
+// const array = [1,2,3,4,5]
+// const test = array.map((num,index,array) => {
+//   return num*2;
+// });
+// console.log(test)
+
+// const filter = array.filter((num,i) => num>1)
+// console.log(filter);
